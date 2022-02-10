@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+</head>
+<body>
+    <h1>Open the Console window to view the output</h1>    
+<script>
+
+
+
+
+var student = [
+        {
+            name:"arun",
+            deep:"cse", 
+            class:"A", 
+            dob:"aug28"
+        }, 
+
+        {
+            name:"bala", 
+            deep:"chemistory", 
+            class:"B", 
+            dob:"feb8"
+        }, 
+
+        {
+            name:"charan", 
+            deep:"ece", 
+            class:"C", 
+            dob:"jul8"
+        }, 
+
+        {
+            name:"dhanush", 
+            deep:"eee", 
+            class:"D", 
+            dob:"dec28"
+        }, 
+
+        {
+            name:"elengo", 
+            deep:"maths", 
+            class:"E", 
+            dob:"jan8"
+        }
+            ]
+
+console.log("Print using FOR");
+
+
+for(i=0; i<student.length; i++){
+    console.log(student[i].name);
+    console.log(student[i].deep);
+}
+
+
+console.log("Print using FOREACH");
+
+
+student.forEach(function(a,i){
+    console.log(a.name);
+    console.log(a.deep);
+})
+
+</script>
+
+</body>
+</html>
